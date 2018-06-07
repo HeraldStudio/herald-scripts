@@ -1,5 +1,5 @@
 #!/bin/bash
-# 用来爬各学院通知的地址
+# 用来爬课表
 # Perl modules
 cpan install Mojolicious
 # set up minimal environment
@@ -10,4 +10,4 @@ wget https://github.com/tusooa/scripts/raw/servant/lib/Scripts/WindowsSupport.pm
 wget https://github.com/tusooa/scripts/raw/servant/lib/Scripts/scriptFunctions.pm
 popd
 # run
-perl -Ilib ./update-notification-group.perl
+perl -Ilib ./fetch-classes.perl
