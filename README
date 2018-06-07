@@ -7,6 +7,7 @@ mkdir -pv lib/Scripts
 pushd lib/Scripts
 wget https://github.com/tusooa/scripts/raw/servant/lib/Scripts/Base.pm
 wget https://github.com/tusooa/scripts/raw/servant/lib/Scripts/WindowsSupport.pm
+wget https://github.com/tusooa/scripts/raw/servant/lib/Scripts/scriptFunctions.pm
 popd
 # run
 perl -Ilib ./update-notification-group.perl
